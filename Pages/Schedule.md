@@ -15,8 +15,13 @@ nav_order: 2
     <th style="width:15%"> Session 4 (13:45 - 15:00) </th>
     </thead>
     <tbody>
+    <tr>
     <td>Monday (06/03)</td>
     <td>Tuesday (06/04)</td>
+    </tr>
+    <tr>
+    <td>Chicken</td>
+    </tr>
     </tbody>
     </table>
 </div>
