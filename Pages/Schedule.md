@@ -16,6 +16,7 @@ nav_order: 2
     </thead>
     <tbody>
     <td>Monday (06/03)</td>
+    <td>Tuesday (06/04)</td>
     </tbody>
     </table>
 </div>
