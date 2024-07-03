@@ -1,8 +1,19 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: AIISC Summer Camp for High School Students
+description: A website hosted by the Artificial Intelligence Institute of South Carolina
 theme: just-the-docs
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 
-url: https://just-the-docs.github.io
+url: https://postybaloney.github.io/
+baseurl: 'aiisc-summer-school/'
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+color_scheme: dark
+search_enabled: false
+heading_anchors: true
+permalink: pretty
+
+# aux_links:
+#   Home: https://postybaloney.github.io/aiisc-summer-school/
+#   About: https://postybaloney.github.io/aiisc-summer-school/Pages/About/
+#   Schedule: 
+#   Gallery: https://postybaloney.github.io/aiisc-summer-school/Pages/Gallery/
+#   Testimonials: https://postybaloney.github.io/aiisc-summer-school/Pages/Testimonials
