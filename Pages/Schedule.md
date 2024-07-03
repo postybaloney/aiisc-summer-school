@@ -7,8 +7,16 @@ nav_order: 2
 <div>
     <table>
     <thead>
-    <th style="width:3%">Week</th>
+    <th style="width:3%">Day</th>
+    <th style="width:15%"> Session 1 (9:15 - 10:30)</th>
+    <th style="width:15%"> Session 2 (10:40 - 11:55)</th>
+    <th style="width:10%"> Lunch </th>
+    <th style="width:15%"> Session 3 (12:20 - 13:35) </th>
+    <th style="width:15%"> Session 4 (13:45 - 15:00) </th>
     </thead>
+    <tbody>
+    <td>Monday (06/03)</td>
+    </tbody>
     </table>
 </div>
 
