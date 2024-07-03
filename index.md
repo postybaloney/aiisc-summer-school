@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 0
 ---
 
 The goal of the AI Summer camp for High School students is to introduce the students to AI with the help of lectures, tutorials, and most importantly hands-on activities. The objective is to actively engage and inspire the students. Students are not required to know coding/programming in advance. But they do need to bring enthusiasm and curiosity!
