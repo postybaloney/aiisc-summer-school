@@ -1,4 +1,4 @@
-title: AIISC Summer Camp for High School Students
+title: AIISC Summer Camp
 description: A website hosted by the Artificial Intelligence Institute of South Carolina
 theme: just-the-docs
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]

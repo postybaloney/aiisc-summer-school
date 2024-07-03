@@ -17,10 +17,43 @@ nav_order: 2
     <tbody>
     <tr>
     <td>Monday (06/03)</td>
-    <td>Tuesday (06/04)</td>
+    <td>Basics to Python - 1</td>
+    <td>Basics to Python - 2</td>
+    <td>Lunch</td>
+    <td>Generative AI</td>
+    <td>Grounding & Hallucination</td>
     </tr>
     <tr>
-    <td>Chicken</td>
+    <td>Tuesday (06/04)</td>
+    <td>Autonomous Driving</td>
+    <td>Grounding & Hallucination</td>
+    <td>Lunch</td>
+    <td>Neural Networks with Python</td>
+    <td>Explainable Food Recommendation</td>
+    </tr>
+    <tr>
+    <td>Wednesday (06/05)</td>
+    <td>How to use GenAI Responsibly</td>
+    <td>Web app with ChatGPT - 1</td>
+    <td>Lunch</td>
+    <td>Detecting AI Content for Safety</td>
+    <td>Web app with ChatGPT</td>
+    </tr>
+    <tr>
+    <td>Thursday (06/06)</td>
+    <td>Industry Visit</td>
+    <td>AI in Manufacturing</td>
+    <td>Lunch</td>
+    <td>AI in Gaming</td>
+    <td>Using Analogy in Education</td>
+    </tr>
+    <tr>
+    <td>Friday (06/07)</td>
+    <td>Correlation vs Causality</td>
+    <td>AI and Safety</td>
+    <td>Lunch</td>
+    <td>None</td>
+    <td>None</td>
     </tr>
     </tbody>
     </table>
