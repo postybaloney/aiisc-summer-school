@@ -3,13 +3,10 @@ title: Gallery
 layout: page
 nav_order: 3
 ---
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Grid with Flexbox</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -40,8 +37,8 @@ nav_order: 3
 <body>
     <h1>Image Grid with Flexbox</h1>
     <div class="flex-container">
-        <div class="flex-item"><img src="assets/images/aiisc.png" alt="Image 1"></div>
-        <div class="flex-item"><img src="assets/images/amitsheth.png" alt="Image 2"></div>
+        <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/aiisc.png" alt="Image 1"></div>
+        <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/amitsheth.png" alt="Image 2"></div>
         <!-- <div class="flex-item"><img src="https://via.placeholder.com/200" alt="Image 3"></div>
         <div class="flex-item"><img src="https://via.placeholder.com/200" alt="Image 4"></div> -->
         <!-- Add more images as needed -->
