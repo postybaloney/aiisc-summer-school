@@ -3,14 +3,13 @@ description: A website hosted by the Artificial Intelligence Institute of South 
 theme: just-the-docs
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 
-url: https://postybaloney.github.io/
+url: 'https://postybaloney.github.io/'
 baseurl: 'aiisc-summer-school/'
 
 color_scheme: dark
-search_enabled: false
+search_enabled: true
 heading_anchors: true
 permalink: pretty
-
 aux_links:
   Home: https://postybaloney.github.io/aiisc-summer-school/
   About: https://postybaloney.github.io/aiisc-summer-school/Pages/About/
