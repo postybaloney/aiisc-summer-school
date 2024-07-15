@@ -19,3 +19,5 @@ These sessions are planned with a view of high engagement, through a combination
 <b>Richland Two: Dr. Arlene Bakutes (Organizer, who supports the AI camp with DoD-funded “Premier Pathways for Student Success“ project), Kirstin Bullington (teacher who accompanied the students, 2022 South Carolina STEM Educator of the Year)</b>
 
 <b>Program Coordinator: Megha Chakraborty</b>
+
+2024 Presenters and Volunteers: Joey Y., Ruwan W., Megha C., Anku Rani, Deepa T., Revathy V., Jinendra M., Chathurangi S., Vedant K, Thillini W., Utkarshini J., Venkat N.

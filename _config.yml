@@ -6,7 +6,7 @@ exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 url: 'https://postybaloney.github.io/'
 baseurl: 'aiisc-summer-school/'
 
-color_scheme: dark
+color_scheme: light
 search_enabled: true
 heading_anchors: true
 permalink: pretty
@@ -16,3 +16,4 @@ aux_links:
   Schedule: https://postybaloney.github.io/aiisc-summer-school/Pages/Schedule/
   Gallery: https://postybaloney.github.io/aiisc-summer-school/Pages/Gallery/
   Testimonials: https://postybaloney.github.io/aiisc-summer-school/Pages/Testimonials
+  Previous Years: https://postybaloney.github.io/aiisc-summer-school/Archived/

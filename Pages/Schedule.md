@@ -4,58 +4,127 @@ layout: page
 nav_order: 2
 ---
 
+<style>
+    /* Styling for the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 10px; /* Rounded corners */
+        overflow: hidden; /* Ensure rounded corners appear properly */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow for a raised effect */
+        font-family: Arial, sans-serif;
+        background-color: #333; /* Dark gray background */
+        color: white; /* White text */
+    }
+
+    a:link {
+        color: #87CEEB; /* Original link color */
+    }
+
+    a:visited {
+        color: pink; /* Original visited link color */
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-right: 1px solid white; /* Vertical lines between columns */
+    }
+
+    th:first-child,
+    td:first-child {
+        border-left: 1px solid white; /* Vertical line at the beginning */
+    }
+
+    th {
+        background-color: #733635; /* Darker gray background for headers */
+    }
+
+    tbody tr:hover {
+        background-color: #444; /* Slightly lighter gray background on hover */
+    }
+
+    /* Set widths for each column */
+    th:nth-child(1),
+    td:nth-child(1) {
+        width: 14%;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2),
+    th:nth-child(3),
+    td:nth-child(3),
+    th:nth-child(4),
+    td:nth-child(4),
+    th:nth-child(5),
+    td:nth-child(5),
+    th:nth-child(6),
+    td:nth-child(6) {
+        width: 18%;
+    }
+
+    thead {
+        font-size: 20px;
+    }
+
+    tr {
+        border-bottom: 1px solid white;
+    }
+
+    /* Responsive design for smaller screens */
+    @media screen and (max-width: 600px) {
+        th, td {
+            padding: 8px;
+        }
+    }
+</style>
+
 <div>
     <table>
-    <thead>
-    <th style="width:3%">Day</th>
-    <th style="width:15%"> Session 1 (9:15 - 10:30)</th>
-    <th style="width:15%"> Session 2 (10:40 - 11:55)</th>
-    <th style="width:10%"> Lunch </th>
-    <th style="width:15%"> Session 3 (12:20 - 13:35) </th>
-    <th style="width:15%"> Session 4 (13:45 - 15:00) </th>
-    </thead>
-    <tbody>
-    <tr>
-    <td>Monday (06/03)</td>
-    <td>Basics to Python - 1</td>
-    <td>Basics to Python - 2</td>
-    <td>Lunch</td>
-    <td>Generative AI</td>
-    <td>Grounding & Hallucination</td>
-    </tr>
-    <tr>
-    <td>Tuesday (06/04)</td>
-    <td>Autonomous Driving</td>
-    <td>Grounding & Hallucination</td>
-    <td>Lunch</td>
-    <td>Neural Networks with Python</td>
-    <td>Explainable Food Recommendation</td>
-    </tr>
-    <tr>
-    <td>Wednesday (06/05)</td>
-    <td>How to use GenAI Responsibly</td>
-    <td>Web app with ChatGPT - 1</td>
-    <td>Lunch</td>
-    <td>Detecting AI Content for Safety</td>
-    <td>Web app with ChatGPT</td>
-    </tr>
-    <tr>
-    <td>Thursday (06/06)</td>
-    <td>Industry Visit</td>
-    <td>AI in Manufacturing</td>
-    <td>Lunch</td>
-    <td>AI in Gaming</td>
-    <td>Using Analogy in Education</td>
-    </tr>
-    <tr>
-    <td>Friday (06/07)</td>
-    <td>Correlation vs Causality</td>
-    <td>AI and Safety</td>
-    <td>Lunch</td>
-    <td>None</td>
-    <td>None</td>
-    </tr>
-    </tbody>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Day 1: June 3</th>
+                <th>Day 2: June 4</th>
+                <th>Day 3: June 5</th>
+                <th>Day 4: June 6</th>
+                <th>Day 5: June 7</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Session 1 (9:15 am - 10:30 am)</td>
+                <td><a href="http://tiny.cc/python-basics">Basics to Python - 1</a></td>
+                <td><a href="https://drive.google.com/file/d/1oy7Fj0hY0M3PMDHctTiKYIhNSZ0zwRVz/view?usp=sharing">Autonomous Driving</a></td>
+                <td><a href="https://docs.google.com/presentation/d/1f3btoVbry7jw5i1cHd9MCcaJM5wIGrRx43tqozDlaLk/edit?usp=sharing">How to use GenAI Responsibly</a></td>
+                <td>Industry Visit</td>
+                <td>Correlation vs Causality</td>
+            </tr>
+            <tr>
+                <td>Session 2 (10:40 am - 11:55 am)</td>
+                <td><a href="https://colab.research.google.com/drive/1ZvQwnJQAH5MKB4-o91H2c6s-K4xcJqfk?usp=sharing">Basics to Python - 2</a></td>
+                <td>Grounding & Hallucination - 2</td>
+                <td>Web app with ChatGPT - 1</td>
+                <td><a href="https://docs.google.com/presentation/d/11HsoRNKiy6FIarwJeiEXKnXFbRdiVPbky-olkKcRjYo/edit#slide=id.p">AI in Manufacturing</a></td>
+                <td><a href="https://emailsc-my.sharepoint.com/:p:/r/personal/nadimuthuv_sc_edu/Documents/Day%205_Session%202_AI%20Safety.pptx?d=w9ac51ce8b29e45069847618f71215561&csf=1&web=1&e=nfFJNv">AI and Safety</a></td>
+            </tr>
+            <tr>
+                <td>Session 3 (12:20 pm - 1:35 pm)</td>
+                <td><a href="https://docs.google.com/presentation/d/1WxyWzCS4FPMch1PrNBNRfUAg0jz4xi8bp1kSQDTXQcY/edit?usp=sharing">Generative AI</a></td>
+                <td><a href="https://docs.google.com/presentation/d/19uw4iJ7d0tjpk7Aj8BhELVtO_AvrMYwDS3sst4t-g2Q/edit?usp=sharing">Neural Networks with Python</a></td>
+                <td><a href="https://docs.google.com/presentation/d/1yD_uDQHGfBQ8IukkubFULxn51GHKxvc9GQ_es750ilU/edit?usp=sharing">Detecting AI Content for Safety</a></td>
+                <td><a href="https://drive.google.com/file/d/1eVvVuTqhVlKuo7fOPTOXiKLvkYsazchM/view?usp=sharing">AI in Gaming</a></td>
+                <td>None</td>
+            </tr>
+            <tr>
+                <td>Session 4 (1:45 pm - 3:00 pm)</td>
+                <td><a href="https://www.canva.com/design/DAGGuZ0kgV8/JKhxu6e8te-WTndPtnLx6g/edit?utm_content=DAGGuZ0kgV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Grounding & Hallucination - 1</a></td>
+                <td><a href="https://docs.google.com/presentation/d/12bXQ36VztMtHSwCd0V7lHy7q9cBxie8uoKIceGepvDI/edit?usp=sharing">Explainable Food Recommendation</a></td>
+                <td>Web app with ChatGPT</td>
+                <td>Using Analogy in Education</td>
+                <td>None</td>
+            </tr>
+        </tbody>
     </table>
 </div>
 
