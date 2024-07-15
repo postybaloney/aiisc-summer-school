@@ -8,7 +8,7 @@ nav_order: 2
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     table {
-    width: 150%;
+    width: 100%;
     border-collapse: collapse;
     /* border-radius: 10px; */ /* Rounded corners */
     overflow: hidden; /* Ensure rounded corners appear properly */
@@ -35,9 +35,9 @@ nav_order: 2
     td:nth-child(5),
     th:nth-child(6),
     td:nth-child(6) {width: 10%;}
-    thead {font-size: 20px;}
+    thead {font-size: 10px;}
     tr {border-bottom: 1px solid white;}
-    tbody {font-size: 8px;}
+    tbody, td {font-size: 8px;}
     /* Responsive design for smaller screens */
     @media screen and (max-width: 600px) {
         th, td {padding: 8px;}
