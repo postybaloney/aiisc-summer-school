@@ -12,7 +12,7 @@ nav_order: 2
   table {
     width: 100%;
     border-collapse: collapse;
-    border-radius: 10px; /* Rounded corners */
+    /* border-radius: 10px; */ /* Rounded corners */
     overflow: hidden; /* Ensure rounded corners appear properly */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */ /* Drop shadow for a raised effect */
     font-family: Arial, sans-serif;
@@ -42,7 +42,7 @@ nav_order: 2
   /* Set widths for each column */
   th:nth-child(1),
   td:nth-child(1) {
-    width: 14%;
+    width: 20%;
   }
   th:nth-child(2),
   td:nth-child(2),
@@ -54,7 +54,7 @@ nav_order: 2
   td:nth-child(5),
   th:nth-child(6),
   td:nth-child(6) {
-    width: 18%;
+    width: 10%;
   }
   thead {
     font-size: 20px;
@@ -63,7 +63,7 @@ nav_order: 2
     border-bottom: 1px solid white;
   }
   tbody {
-    font-size: 10px;
+    font-size: 8px;
   }
   /* Responsive design for smaller screens */
   @media screen and (max-width: 600px) {
