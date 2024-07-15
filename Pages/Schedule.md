@@ -24,7 +24,7 @@ nav_order: 2
     th {background-color: #733635; /* Darker gray background for headers */}
     tbody tr:hover {background-color: #444; /* Slightly lighter gray background on hover */}
     /* Set widths for each column */
-    th:nth-child(1), td:nth-child(1) {width: 20%;}
+    th:nth-child(1), td:nth-child(1) {width: 50%;}
     th:nth-child(2),
     td:nth-child(2),
     th:nth-child(3),
@@ -34,10 +34,10 @@ nav_order: 2
     th:nth-child(5),
     td:nth-child(5),
     th:nth-child(6),
-    td:nth-child(6) {width: 16%;}
-    thead {font-size: 10px;}
+    td:nth-child(6) {width: 10%;}
+    thead {font-size: 8px;}
     tr {border-bottom: 1px solid white;}
-    td {font-size: 8px;}
+    td {font-size: 4px;}
     /* Responsive design for smaller screens */
     @media screen and (max-width: 600px) {
         th, td {padding: 8px;}
