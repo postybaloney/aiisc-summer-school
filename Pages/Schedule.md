@@ -6,72 +6,8 @@ nav_order: 2
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="scheduleStyle.css"> -->
+  <link rel="stylesheet" href="scheduleStyle.css">
 </head>
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    /* border-radius: 10px; */ /* Rounded corners */
-    overflow: hidden; /* Ensure rounded corners appear properly */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */ /* Drop shadow for a raised effect */
-    font-family: Arial, sans-serif;
-    background-color: #000; /* Dark gray background */
-    color: black; /* White text */
-  }
-  td a:link {
-    color: #87CEEB; /* Original link color */
-  }
-  td a:visited {
-    color: pink; /* Original visited link color */
-  }
-  th, td {
-    padding: 12px;
-    text-align: left;
-    border-right: 1px solid white; /* Vertical lines between columns */
-  }
-  th:first-child, td:first-child {
-    border-left: 1px solid white; /* Vertical line at the beginning */
-  }
-  th {
-    background-color: #733635; /* Darker gray background for headers */
-  }
-  tbody tr:hover {
-    background-color: #444; /* Slightly lighter gray background on hover */
-  }
-  /* Set widths for each column */
-  th:nth-child(1),
-  td:nth-child(1) {
-    width: 20%;
-  }
-  th:nth-child(2),
-  td:nth-child(2),
-  th:nth-child(3),
-  td:nth-child(3),
-  th:nth-child(4),
-  td:nth-child(4),
-  th:nth-child(5),
-  td:nth-child(5),
-  th:nth-child(6),
-  td:nth-child(6) {
-    width: 10%;
-  }
-  thead {
-    font-size: 20px;
-  }
-  tr {
-    border-bottom: 1px solid white;
-  }
-  tbody {
-    font-size: 8px;
-  }
-  /* Responsive design for smaller screens */
-  @media screen and (max-width: 600px) {
-    th, td {
-        padding: 8px;
-    }
-  }
-</style>
 <div>
     <table>
         <thead>
