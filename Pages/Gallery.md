@@ -67,8 +67,8 @@ nav_order: 3
 </head>
 <body>
     <div class="flex-container">
-        <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/GalleryPXL_20240603_145641604.MP.jpg"></div>
-        <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/Gallery/PXL_20240603_173212677.MP.jpg"></div>
+        <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/GalleryPXL_20240603_145641604.MP.jpg"><a href="https://postybaloney.github.io/aiisc-summer-school/assets/images/GalleryPXL_20240603_145641604.MP.jpg"></a></div> 
+        <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/Gallery/PXL_20240603_173212677.MP.jpg"><a href="https://postybaloney.github.io/aiisc-summer-school/assets/images/Gallery/PXL_20240603_173212677.MP.jpg"></a></div>
         <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/Gallery/PXL_20240603_181632272.jpg"></div>
         <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/Gallery/PXL_20240603_183412373.MP.jpg"></div>
         <!-- <div class="flex-item"><img src="https://postybaloney.github.io/aiisc-summer-school/assets/images/Gallery/PXL_20240603_183415507.mp4"></div> -->
