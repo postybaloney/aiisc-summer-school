@@ -9,11 +9,11 @@ table {
     color: white; /* White text */
 }
 
-a:link {
+td a:link {
     color: #87CEEB; /* Original link color */
 }
 
-a:visited {
+td a:visited {
     color: pink; /* Original visited link color */
 }
 
