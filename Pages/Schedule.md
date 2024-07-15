@@ -34,10 +34,10 @@ nav_order: 2
     th:nth-child(5),
     td:nth-child(5),
     th:nth-child(6),
-    td:nth-child(6) {width: 10%;}
+    td:nth-child(6) {width: 16%;}
     thead {font-size: 10px;}
     tr {border-bottom: 1px solid white;}
-    tbody, td {font-size: 8px;}
+    td {font-size: 8px;}
     /* Responsive design for smaller screens */
     @media screen and (max-width: 600px) {
         th, td {padding: 8px;}
