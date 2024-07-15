@@ -95,10 +95,10 @@ nav_order: 2
 
 | Time | Day 1: June 3 | Day 2: June 4 | Day 3: June 5 | Day 4: June 6 | Day 5: June 7 |
 |:-----|:--------------|:--------------|:--------------|:--------------|:--------------|
-| Session 1 (9:15 am - 10:30 am) | good swedish fish | nice  |
-| Session 2 (10:40 am - 11:55 am) | good and plenty   | nice  |
-| Session 3 (12:20 pm - 1:35 pm) | good `oreos`      | hmm   |
-| Session 4 (1:45 pm - 3:00 pm) | good `zoute` drop | yumm  |
+| Session 1 (9:15 am - 10:30 am)      | good swedish fish | nice  |
+| Session 2 (10:40 am - 11:55 am)       | good and plenty   | nice  |
+| Session 3 (12:20 pm - 1:35 pm)      | good `oreos`      | hmm   |
+| Session 4 (1:45 pm - 3:00 pm)       | good `zoute` drop | yumm  |
 
 
 <!-- {%- assign start_epoch = site.data.schedule.start_date | date: '%s' -%}
