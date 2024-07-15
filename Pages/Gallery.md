@@ -110,6 +110,6 @@ nav_order: 3
         <span class="close">&times;</span>
         <img class="modal-content" id="modal-img">
     </div>
-    <script src="https://postybaloney.github.io/aiisc-summer-school/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

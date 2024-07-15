@@ -93,6 +93,13 @@ nav_order: 2
     </table>
 </div>
 
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
 
 <!-- {%- assign start_epoch = site.data.schedule.start_date | date: '%s' -%}
 {%- assign end_epoch = site.data.schedule.end_date | date: '%s' -%}
