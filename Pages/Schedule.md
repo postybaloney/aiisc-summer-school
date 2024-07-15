@@ -16,8 +16,8 @@ nav_order: 2
     overflow: hidden; /* Ensure rounded corners appear properly */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */ /* Drop shadow for a raised effect */
     font-family: Arial, sans-serif;
-    background-color: #333; /* Dark gray background */
-    color: white; /* White text */
+    background-color: #000; /* Dark gray background */
+    color: black; /* White text */
   }
   td a:link {
     color: #87CEEB; /* Original link color */
@@ -61,6 +61,9 @@ nav_order: 2
   }
   tr {
     border-bottom: 1px solid white;
+  }
+  tbody {
+    font-size: 10px;
   }
   /* Responsive design for smaller screens */
   @media screen and (max-width: 600px) {
