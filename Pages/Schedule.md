@@ -8,7 +8,7 @@ nav_order: 2
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     table {
-    width: 100%;
+    width: 150%;
     border-collapse: collapse;
     /* border-radius: 10px; */ /* Rounded corners */
     overflow: hidden; /* Ensure rounded corners appear properly */
